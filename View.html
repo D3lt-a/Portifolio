@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="master.css">
+  <link rel="stylesheet" href="View.css">
+  <title>Gavin Boris</title>
+</head>
+
+<body>
+  
+  <div class="bgimg-1">
+    <div class="caption">
+      <span class="border">Gavin Boris</span>
+    </div>
+  </div>
+
+  <div style="color: #777;background-color:#FFFFFF;text-align:center;padding:50px 80px;text-align: justify;">
+    <h3 style="text-align:center;">ABOUT</h3>
+    <p>
+      My name is Gavin Boris, and I am a web developer and software developer student.
+      I have acquired my knowledge from W3 schools and am eager to continue learning more about my domain and career.
+      I am passionate about developing innovative solutions for real-world problems and am excited to contribute to the
+      tech industry.
+      Through this journey, I hope to connect with like-minded individuals and gain valuable insights and experiences
+      that will propel me forward in my journey as a developer.
+      <br>
+    </p>
+  </div>
+
+  <div class="bgimg-2">
+    <div class="caption">
+      <span class="border" style="background-color:transparent;font-size:15px;color: #f7f7f7;">"Design is not just what
+        it looks like and feels like. Design is how it works." — Steve Jobs</span>
+    </div>
+  </div>
+
+  <div style="position:relative;">
+    <div style="color:#ddd;background-color:#333333;text-align:center;padding:50px 80px;text-align: justify;">
+      <h3 style="text-align:center; color: #ddd;">PROJECTS and SKILLS</h3>
+      <p>
+        <dl>
+          <dt>Projects</dt>
+          <dd>Portifolio</dd>
+          <dd>ToDo List</dd>
+          <dd>E-Commerce</dd>
+          <dd>Transaction Tracker</dd>
+          <div>
+            <br>
+          </div>
+          <hr>
+          <div>
+            <br>
+          </div>
+          <dt>Skills</dt>
+          <dd>Graphic Desgning</dd>
+          <dd>Photo Editing</dd>
+          <dd>UI/UX Design</dd>
+          <dd>Software and Web Developement</dd>
+        </dl>
+      </p>
+    </div>
+  </div>
+
+  <div class="bgimg-3">
+    <div class="caption">
+      <span class="border" style="background-color:transparent;font-size:15px;color: #f7f7f7;">
+        "First, solve the problem. Then, write the code." — John Johnson</span>
+    </div>
+  </div>
+
+  <div style="position:relative;">
+    <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+      <h3 style="text-align:center; color: #ddd;">CONTACT ME</h3>
+      <p>
+        If you have any questions, comments, or suggestions, feel free to contact me and send a mail on my <br>
+        <a href="mailto:kirengaboris07@gmail.com" style="font-size: 20px; color: dodgerblue;">Email</a> to get in touch.
+      </p>
+    </div>
+  </div>
+
+  <div class="bgimg-1">
+    <div class="caption">
+      <span class="border"><a href="SignUp.html" style="text-decoration: none; color: #f7f7f7;">My Resume</a></span>
+    </div>
+  </div>
+  <script>
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function () {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+      } else {
+        document.getElementById("navbar").style.top = "-50px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+  </script>
+
+</body>
+
+</html>
